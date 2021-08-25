@@ -1,2 +1,6 @@
-# Trabajo-integrador-RedesNeuronales-AutoencoderConvolutional
-Autoencoder Convolutional
+# TrabajoIntegrador-RedesNeuronales2020-AutoencoderConvolutional
+Casi todos los días vemos en acción algún tipo de algoritmo de reconocimiento de objetos, por ejemplo, la detección facial de la cámara del teléfono móvil. La pregunta que la mayoría de las personas se hacen ante esto es, ¿cómo lo hace? En el núcleo de soluciones de visión computacional como éstas, se encuentran las redes neurales convolucionales (CNN).
+
+Las neuronas de este tipo de red tienen un comportamiento muy similar a las neuronas de la corteza visual primaria de un cerebro biológico. Este tipo de red es muy efectiva para tareas de visión por computadora cómo es la detección de objetos ó análisis de videos, como así también en la clasificación y segmentación de imágenes.
+
+El trabajo constó de implementar una red neuronal convolucional auto-encoder para aprender la función identidad del dataset MNIST de dígitos escritos a mano y digitalizados. La red tuvo 784 unidades de entrada y una red de salida de otras 784 neuronas. Se utilizó como algoritmo de optimización, ADAM con un learning rate de 0,003, betas de (0.9, 0.999), y un épsilon de 10^-8, minibatch de tamaño 1000 y como función de pérdida se usó la MSELoss. Los resultados fueron muy satisfactorios, logrando replicar con altísima exactitud la imagen de entrada.
